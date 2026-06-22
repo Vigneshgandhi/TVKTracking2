@@ -9,7 +9,7 @@ export default function MinisterCards() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch("http://localhost:5000/api/ministers")
+        fetch("https://tvk-tracking-backend-git-main-vigneshanonymous-projects.vercel.app/api/ministers")
             .then((res) => res.json())
             .then((data) => {
                 setMinisters(data.data);
