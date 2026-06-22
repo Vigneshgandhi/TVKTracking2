@@ -25,7 +25,7 @@ export default function SchemesPage() {
         try {
 
             const response = await fetch(
-                "http://localhost:5000/api/schemes",
+                "https://tvk-tracking-backend-git-main-vigneshanonymous-projects.vercel.app/api/schemes",
                 {
                     credentials: "include"
                 }
@@ -88,7 +88,7 @@ export default function SchemesPage() {
             const response =
                 await fetch(
 
-                    `http://localhost:5000/api/schemes/${id}`,
+                    `https://tvk-tracking-backend-git-main-vigneshanonymous-projects.vercel.app/api/schemes/${id}`,
 
                     {
                         method: "DELETE",
