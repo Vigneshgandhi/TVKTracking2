@@ -33,7 +33,7 @@ export default function AnnouncementViewPage() {
     useEffect(() => {
 
         fetch(
-            `http://localhost:5000/api/announcements/${id}`
+            `https://tvk-tracking-backend-git-main-vigneshanonymous-projects.vercel.app/api/announcements/${id}`
         )
             .then((res) => res.json())
             .then((data) => {
