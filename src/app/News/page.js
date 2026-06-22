@@ -16,7 +16,7 @@ export default function NewsPage() {
     const fetchNews = async () => {
 
         const response = await fetch(
-            "http://localhost:5000/api/news"
+            "https://tvk-tracking-backend-git-main-vigneshanonymous-projects.vercel.app/api/news"
         );
 
         const data = await response.json();
@@ -61,7 +61,7 @@ export default function NewsPage() {
 
         const response = await fetch(
 
-            `http://localhost:5000/api/news/${id}`,
+            `https://tvk-tracking-backend-git-main-vigneshanonymous-projects.vercel.app/api/news/${id}`,
 
             {
                 method: "DELETE",
