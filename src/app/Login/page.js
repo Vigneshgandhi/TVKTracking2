@@ -100,7 +100,7 @@ export default function AdminLoginPage() {
             setError("");
 
             const response = await fetch(
-                "https://tvk-tracking-backend-git-main-vigneshanonymous-projects.vercel.app/api/admin/login",
+                "https://tvk-tracking-backend-5l45.vercel.app/api/admin/login",
                 {
                     method: "POST",
                     headers: {
