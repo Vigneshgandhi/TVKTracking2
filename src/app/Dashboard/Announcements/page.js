@@ -22,7 +22,7 @@ export default function AnnouncementsDashboard() {
 
             const response =
                 await fetch(
-                    "http://localhost:5000/api/announcements"
+                    "https://tvk-tracking-backend-git-main-vigneshanonymous-projects.vercel.app/api/announcements"
                 );
 
             const data =
@@ -58,7 +58,7 @@ export default function AnnouncementsDashboard() {
             const response =
                 await fetch(
 
-                    `http://localhost:5000/api/announcements/${id}`,
+                    `https://tvk-tracking-backend-git-main-vigneshanonymous-projects.vercel.app/api/announcements/${id}`,
 
                     {
                         method:
