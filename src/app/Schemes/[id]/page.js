@@ -23,7 +23,7 @@ export default function SchemeDetailsPage() {
                     const response =
                         await fetch(
 
-                            `http://localhost:5000/api/schemes/${id}`
+                            `https://tvk-tracking-backend-git-main-vigneshanonymous-projects.vercel.app/api/schemes/${id}`
 
                         );
 
