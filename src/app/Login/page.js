@@ -38,7 +38,7 @@ export default function AdminLoginPage() {
 
     const fetchStats = async () => {
         try {
-            const response = await fetch("https://tvk-tracking-backend-git-main-vigneshanonymous-projects.vercel.app/api/stats");
+            const response = await fetch("https://tvk-tracking-backend-5l45.vercel.app/api/stats");
             if (!response.ok) {
                 console.error("/api/stats HTTP error", response.status);
                 return;
