@@ -72,7 +72,7 @@ export default function AddSchemePage() {
             setMessage("");
 
             const response = await fetch(
-                "http://localhost:5000/api/schemes",
+                "https://tvk-tracking-backend-git-main-vigneshanonymous-projects.vercel.app/api/schemes",
                 {
                     method: "POST",
                     credentials: "include",
