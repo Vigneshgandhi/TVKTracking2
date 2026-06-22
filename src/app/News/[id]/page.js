@@ -15,7 +15,7 @@ export default function NewsDetailsPage() {
     useEffect(() => {
 
         fetch(
-            `http://localhost:5000/api/news/${id}`
+            `https://tvk-tracking-backend-git-main-vigneshanonymous-projects.vercel.app/api/news/${id}`
         )
             .then((res) => res.json())
             .then((data) => {
